@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Repos } from 'src/app/classes/repos'; 
 import { Users } from 'src/app/classes/users'; 
-import { SearchRequestService } from '../search-http/search-request.service';
+import { SearchRequestService } from 'src/app/Services/search-request.service';
 
 @Component({
   selector: 'app-repositories',

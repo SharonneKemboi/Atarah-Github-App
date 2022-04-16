@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Users } from 'src/app/classes/users';
-import { Repos } from 'src/app/classes/repos';
-import { SearchRequestService } from '../search-http/search-request.service';
+import { Users } from '../../classes/users';
+import { Repos } from '../../classes/repos';
+import { SearchRequestService } from '../../Services/search-request.service';
 
 @Component({
   selector: 'app-profile',

@@ -1,4 +1,6 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { SearchRequestService } from '../../Services/search-request.service'
+import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
   selector: 'app-search-input',

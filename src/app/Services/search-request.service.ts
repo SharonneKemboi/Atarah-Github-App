@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Users } from '../classes/users';
 import { Repos } from '../classes/repos';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
+
 
 
 @Injectable({
@@ -9,8 +11,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 })
 export class SearchRequestService {
 
-  user!:Users;
-  repos!:Repos;
+  user:Users;
+  repos:Repos;
 
   constructor(private http:HttpClient) {
 
@@ -34,12 +36,12 @@ export class SearchRequestService {
     let promise = new Promise<void>((resolve,reject) =>{
       this.http.get<ApiResponse>(userUrl).toPromise().then
       (response => {
-        this.user = response;
+        this.user!= response;
 
         resolve()
       },
       error=>{
-        this.user.name = "We couldn’t find any users matching the name given"
+        this.user.name = "No Profile Match! Please Try Again"
 
         reject(error)
         })
@@ -59,7 +61,7 @@ export class SearchRequestService {
       let promise = new Promise<void>((resolve,reject) =>{
         this.http.get<ApiResponse>(repoUrl).toPromise().then
         (response => {
-            this.repos = response;
+            this.repos!= response;
             console.log(this.repos);
           resolve()
         },

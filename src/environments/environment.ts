@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  clientSecret: 'your client secret',
-  clientId: 'your client id'
+  clientSecret: 'SHA256:WmN/hUhW6oa9jvnJzpS4FwoPm2F8uxYuOT2Chw1TtbU',
+  clientId: 'SHA256:WmN/hUhW6oa9jvnJzpS4FwoPm2F8uxYuOT2Chw1TtbU'
 
 };
 
