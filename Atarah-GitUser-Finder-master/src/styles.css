@@ -6,10 +6,8 @@ body{
     background-color: black;
     background-repeat: repeat-y;
     background-position: fixed;
-    background-size: contain;
+    background-size: auto;
    
-    
-    
 
    
 }
