@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
+    "Github-Search": {
+=======
     "GitSearchApp": {
+>>>>>>> ae1dd57ec6dae27633b92117a83565b93effa088
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +21,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
+            "outputPath": "dist/github-search",
+=======
             "outputPath": "dist/git-search-app",
+>>>>>>> ae1dd57ec6dae27633b92117a83565b93effa088
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +76,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
+              "browserTarget": "Github-Search:build:production"
+            },
+            "development": {
+              "browserTarget": "Github-Search:build:development"
+=======
               "browserTarget": "GitSearchApp:build:production"
             },
             "development": {
               "browserTarget": "GitSearchApp:build:development"
+>>>>>>> ae1dd57ec6dae27633b92117a83565b93effa088
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +94,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
+            "browserTarget": "Github-Search:build"
+=======
             "browserTarget": "GitSearchApp:build"
+>>>>>>> ae1dd57ec6dae27633b92117a83565b93effa088
           }
         },
         "test": {
@@ -102,5 +121,9 @@
       }
     }
   },
+<<<<<<< HEAD
+  "defaultProject": "Github-Search"
+=======
   "defaultProject": "GitSearchApp"
+>>>>>>> ae1dd57ec6dae27633b92117a83565b93effa088
 }

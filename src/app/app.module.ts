@@ -5,20 +5,24 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Components/navbar/navbar.component';
-import { ProfileComponent } from './Components/profile/profile.component';
-import { RepositoriesComponent } from './Components/repositories/repositories.component';
-import { SearchInputComponent } from './Components/search-input/search-input.component';
-import { DateCountPipe } from './Pipes/date-count.pipe';
+import { ProfileComponent } from './profile/profile.component';
+import { SearchInputComponent } from './search-input/search-input.component';
+import { DateCountPipe } from './date-count.pipe';
+import { RepositoriesComponent } from './repositories/repositories.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     ProfileComponent,
-    RepositoriesComponent,
     SearchInputComponent,
-    DateCountPipe
+    DateCountPipe,
+    RepositoriesComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
