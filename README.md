@@ -38,7 +38,7 @@ This is An Angular Github Search Application that allows users to Search for Git
 
 * Get the Code(Either clone this repository or fork it on GitHub and clone your fork:
 
-git clone https://github.com/SharonneKemboi/Atarah-Github-App
+git clone https://github.com/SharonneKemboi/Atarah-GitUser-Finder
 cd angular-app
 
 ```
