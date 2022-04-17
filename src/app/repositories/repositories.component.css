@@ -9,13 +9,14 @@
     background-color: rgba(10, 240, 236, 0.2);
     padding: 10px;
     text-align: center;
+    font-size: 1.3rem;
     
 }
 
 
 
 h3{
-    color: aqua;
+    color: rgb(251, 252, 252);
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
