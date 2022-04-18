@@ -2,6 +2,10 @@
 
 ## By Sharonne Kemboi
 
+### Screenshot of the App
+<img src="">
+
+
 <p>This is a Github Search App that Allows Users to search for github users and repositories</p>
 
 
@@ -19,10 +23,7 @@
 
 ## Description
 
-This is An Angular Github Search Application that allows users to Search for Github users and repositories
-
-## Project Objectives
-
+This is an angular application that allows users to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
 
 ## Setup/Installation Requirements
@@ -38,7 +39,7 @@ This is An Angular Github Search Application that allows users to Search for Git
 
 * Get the Code(Either clone this repository or fork it on GitHub and clone your fork:
 
-git clone https://github.com/SharonneKemboi/Atarah-GitUser-Finder
+git clone https://github.com/SharonneKemboi/Atarah-Github-App
 cd angular-app
 
 ```
@@ -52,7 +53,9 @@ This App is being hosted by GitHub Pages. The link to the live site is: /
 ## **User Requirements**
 The user will have the following features when using this Application:
 
-1. 
+1. Search for a Github user.
+2. View the profile of that user
+3. View repositories of that User
 
 
 ### Technology & Tools
@@ -67,8 +70,8 @@ The user will have the following features when using this Application:
 * Angular
 
 ## Reference
-* 
-* 
+* [Angular HTTP Client](https://blog.angular-university.io/angular-http/)
+
 
 ## Known Bugs
 * All known bugs were fixed (Bug fixed) . Seen any Bug? Feel free to reach me Asap!!
