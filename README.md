@@ -3,7 +3,7 @@
 ## By Sharonne Kemboi
 
 ### Screenshot of the App
-<img src="">
+<img src="https://github.com/SharonneKemboi/Atarah-Github-App/blob/master/src/assets/Screenshot%20from%202022-04-18%2003-03-42.png">
 
 
 <p>This is a Github Search App that Allows Users to search for github users and repositories</p>
